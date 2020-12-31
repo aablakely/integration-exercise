@@ -5,13 +5,17 @@ Data source: https://www.senate.gov/general/contact_information/senators_cfm.xml
 
 Setup
 ----------
-Clone this repo for extract.py file
+0. Pre-reqs: you have Python 3 and Chrome.
+1. Clone this repo or download the files as a zip.
+<br>1.1 If zip, uncompress the files.
+2. From the directory where these files now live, from the command line run `python -m pip install -r requirements.txt` (or `python3 -m pip install -r requirements.txt` if you have multiple versions of python in your env. I recommend a clean venv with only python3)
+3. Run `python extract.py` . As mentioned at #2, if you have multiple python versions, run `python3 extract.py`. (Again, I recommend a clean venv)
 <br>
-Requirements.txt file includes following module dependencies:
-`selenium
-webdriver_manager
-xml
-json`
+Requirements.txt file includes following module dependencies:<br>
+<ul>
+	<li>selenium</li>
+	<li>webdriver_manager</li>
+</ul>
 
 Run
 ----------
