@@ -23,9 +23,10 @@ Run
 
 Caveats
 ----------
-This is a first working version created in ~3 hours, as requested. In the interest of time, this script uses selenium to work around access issues on the senate.gov site met when using 'requests' or 'urllib' modules. It requires Chrome in order to run the Chrome driver. This essentially like taking a nuke to an ant, but for the home computer this was sufficient for the task.
+<ul>
+<li>This is a first working version created in ~3 hours, as requested. In the interest of time, this script uses selenium to work around access issues on the senate.gov site met when using 'requests' or 'urllib' modules. It requires Chrome in order to run the Chrome driver. This essentially like taking a nuke to an ant, but for the home computer this was sufficient for the task.</li>
 
-The initial request outlined the following JSON format for each member in the XML: <br>
+<li>The initial request outlined the following JSON format for each member in the XML: <br>
 ```json
 {
     "firstName": <first name>,
@@ -76,8 +77,9 @@ Given the open curly brace within the address array and no closing curly brace, 
     ...
     }
 }
-```
+``` 
+</li>
   
-  With the "member0" key following suit from member0 to member99.
+<li>With the "member0" key following suit from member0 to member99.</li>
   
 
