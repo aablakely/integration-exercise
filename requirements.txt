@@ -1,0 +1,5 @@
+####### requirements.txt for integration-exercise #######
+selenium
+webdriver_manager
+xml
+json
