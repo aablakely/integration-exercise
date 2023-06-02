@@ -3,7 +3,7 @@ Integration of public senator info XML (via HTTP) to console print of JSON info.
 
 Data source: https://www.senate.gov/general/contact_information/senators_cfm.xml
 
-Setup
+## Setup
 ----------
 0. Pre-reqs: you have Python 3 and Chrome.
 1. Clone this repo or download the files as a zip.
@@ -17,11 +17,11 @@ Requirements.txt file includes following module dependencies:<br>
 	<li>webdriver_manager</li>
 </ul>
 
-Run
+## Run
 ----------
 `python extract.py` to run
 
-Caveats
+## Caveats
 ----------
 <ul>
 <li>This is a first working version created in ~3 hours, as requested. In the interest of time, this script uses selenium to work around access issues on the senate.gov site met when using 'requests' or 'urllib' modules. It requires Chrome in order to run the Chrome driver. This essentially like taking a nuke to an ant, but for the home computer this was sufficient for the task.</li>
